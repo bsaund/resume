@@ -1,0 +1,25 @@
+Dear Daniel,
+
+I am interested in employment at Vayu.
+
+Urgent delivery of light goods is well solved by drones, and focusing the end product in other countries solves legal problems currently faced by other drone companies such as Amazon Prime Air.
+
+I have attended the California Institute of Technology (Caltech) (2008-2012), worked as a robot controls engineer at Electroimpact (EI) making robots that make airplanes, and currently am in a software development role at Amazon. I have chosen these experiences to best prepare me to create practical robots, and I believe I can help with the technical challenges of Vayu.
+
+The low level control of the drone involves understanding the physics of the drone and creating tight PID loops. I have done both of these many time in academic, hobbyist, and professional settings. At Caltech I learned sufficient theory of mathematics, physics, and controls to understand and describe complex robotic systems. In particular my understanding of linear algebra, state-space models, and material deflections have proven most useful when working on robotic systems. 
+At Electroimpact (EI) I used this theory to solve problems on large robotic arms that build airplanes. When I started at EI the 4 meter cantilevered arms were not accurate enough for many aerospace projects. I developed an algorithm to model and correct the positional error and implemented this model on the robots. I cut the positional error in half making them the most accurate robotic arms of this size. Smooth motion is also necessary for these robotic arms. At first I tuned the already implemented control loops, but had to create custom control to handle the specific challenges of a continuously variable moment of inertia about each motor. Outside of work I have tuned control loops my hexacopter and implemented them from scratch on a two-wheeled "segway" style balancing robot.
+
+The high level control of the Vayu drones will involve path planning and decision making. At Caltech I learned robotic vision and navigation from instructors at JPL that wrote the autonomous navigation for the Mars rovers. The open skies are much easier to navigate, but the same challenges of localization and path correction apply. At Amazon I write decision making software in a different context, with no robots involved. Here I have also learned the software development tools used by the best programmers and how to best write code that is clean, readable, and tested.
+
+While the above challenges are the most fun parts of robotics I am prepared to help in other software, mechanical, electrical, and business challeneges as well. 
+
+I look forward to hearing back,
+Brad Saund
+
+
+
+
+
+
+
+

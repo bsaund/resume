@@ -1,0 +1,11 @@
+
+Dear Hiring Manager,
+Robotic cars will change the world and I will pour my energy into making them. At the California Institute of Technology I learned the fundamentals of autonomous navigation from instructors who designed the navigation for the Mars rovers. I implemented Simultaneous Localization and Mapping (SLAM), path finding, obstacle avoidance, object detection, and visual odometry algorithms. 
+After graduation I started at Electroimpact, programming robotic arms that assemble airplanes. I worked with mechanical, electrical, and controls engineers to create these massive automated assembly machines. I programmed Programmable Logic Circuits (PLCs) as well as C++ code to control decision making and path planning. I also created and implemented an algorithm that cut the positional error of the robotic arm in half and presented my results in a paper at the Society of Automotive Engineer's Aerotech conference. When installing these robots around the world I debugged mechanical, electrical, and software issues under tight time pressure. When not travelling I was brought into many project to solve a variety of accuracy and kinematics challenges. 
+I left Electroimpact for a software developing role at Amazon to work among some of the best programmers. Though I have only been at Amazon for a few months I have created a feature with code running on (almost) every Amazon Kindle, and have implemented several server side features. I am focusing purely on programming at Amazon but in my free time I have built a two-wheel balancing "segway" vehicle and a quadcopter with autonomous navigation. 
+Working on autonomous vehicles has been attractive me since learning of the DARPA Grand Challenge many years ago and I want to focus on this as a career. I look forward to speaking with you soon regarding the numerous postings for Automated Driving Engineers.
+
+Sincerely,
+Brad Saund
+	
+
