@@ -25,7 +25,7 @@
 
 % personal data
 \name{Brad}{Saund}
-\title{Resumé title}                               % optional, remove / comment the line if not wanted
+%% \title{}                               % optional, remove / comment the line if not wanted
 \address{5716 Munhall Rd.}{Pittsburgh, PA}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{+1~(650)~787~4726}                   % optional, remove / comment the line if not wanted
 %% \phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
@@ -54,17 +54,19 @@
 \makecvtitle
 
 \section{Education}
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\cventry{2015--2016}{Master of Robotics}{Carnegie Mellon}{Pittsburgh}{}
+        {Biorobotics lab\\
+        Path planning and precision localiation in confined spaces}  % arguments 3 to 6 can be left empty
+\cventry{2008--2012}{BS Mechanical Engineering}{Caltech}{Pasadena}{}{}
 
-\section{Master thesis}
-\cvitem{title}{\emph{Title}}
-\cvitem{supervisors}{Supervisors}
-\cvitem{description}{Short thesis abstract}
+%% \section{Master thesis}
+%% \cvitem{title}{\emph{Title}}
+%% \cvitem{supervisors}{Supervisors}
+%% \cvitem{description}{Short thesis abstract}
 
 \section{Experience}
-\subsection{Vocational}
-\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
+%% \subsection{Vocational}
+\cventry{2014--2015}{Software Development Engineer}{Amazon}{Seattle}{}{I created software for the Amazon Kindle E-Readers and Tablets.\newline{}%
 Detailed achievements:%
 \begin{itemize}%
 \item Achievement 1;
@@ -81,17 +83,20 @@ Detailed achievements:%
   \end{itemize}
 \item Achievement 3.
 \end{itemize}}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
-\subsection{Miscellaneous}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+\cventry{2012--2014}{Robotics Engineer}{Electroimpact}{Seattle}{}{I designed, built, and programmed robots that build airplanes}
+%% \subsection{Academic}
+\cventry{2010--2012}{Research Fellow}{California Institute of Technology}{Pasadena}{}
+        {Fluid Dynamics Research}
 
-%% \section{Languages}
+%% \section{Publications}
 %% \cvitemwithcomment{Language 1}{Skill level}{Comment}
 %% \cvitemwithcomment{Language 2}{Skill level}{Comment}
 %% \cvitemwithcomment{Language 3}{Skill level}{Comment}
 
-%% \section{Computer skills}
-%% \cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+\section{Skills}
+\cvitem{Programming}{ROS, C++, Java, Matlab, Python}
+\cvitem{Deployment}{Deployment to production environments of both software and hardware to millions of machines (Kindle) and machines worth millions of dollars (aerospace robots)}
+\cvitem{Robotics}{Path Planning, Sensor Fusion, Localization, Autonomous Vision and Navigation}
 %% \cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
 %% \cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
 
@@ -112,17 +117,19 @@ Detailed achievements:%
 
 \section{References}
 \begin{cvcolumns}
-  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
-  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
-  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+  \cvcolumn{Carnegie Mellon}{\begin{itemize}\item Reid Simmons\end{itemize}}
+  \cvcolumn{Electroimpact}{\begin{itemize}\item Russ DeVlieg\end{itemize}}
+  \cvcolumn{Caltech}{\begin{itemize}\item Matthew Heverly\end{itemize}}  
+  %% \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon 
+    %% request).}
 \end{cvcolumns}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+%% \nocite{*}
+%% \bibliographystyle{plain}
+%% \bibliography{publications}                        % 'publications' is the name of a BibTeX file
 
 % Publications from a BibTeX file using the multibib package
 %\section{Publications}
@@ -136,24 +143,24 @@ Detailed achievements:%
 \clearpage
 %-----       letter       ---------------------------------------------------------
 % recipient data
-\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
-\date{January 01, 1984}
-\opening{Dear Sir or Madam,}
-\closing{Yours faithfully,}
-\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
-\makelettertitle
+%% \recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+%% \date{January 01, 1984}
+%% \opening{Dear Sir or Madam,}
+%% \closing{Yours faithfully,}
+%% \enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%% \makelettertitle
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+%% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
 
-Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+%% Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
 
-Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+%% Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
 
-Albert Einstein discovered that $e=mc^2$ in 1905.
+%% Albert Einstein discovered that $e=mc^2$ in 1905.
 
-\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+%% \[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
 
-\makeletterclosing
+%% \makeletterclosing
 
 %\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
