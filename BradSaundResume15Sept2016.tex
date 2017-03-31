@@ -34,7 +34,8 @@
 \email{brad.saund@gmail.com}
 \homepage{www.bradsaund.com}
 %% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-\photo[64pt][0.4pt]{portraitCropped}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%% \photo[64pt][0.4pt]{portraitCropped}                       
+% optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %% \quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -55,7 +56,7 @@
 \makecvtitle
 
 \section{Education}
-\cventry{2015--2016}{Master's of Robotics}{Carnegie Mellon}{Pittsburgh}{}
+\cventry{2015--\makebox{\textbf{May 2017}}}{Master's of Robotics}{Carnegie Mellon}{Pittsburgh}{}
         {Biorobotics lab\\
         Path planning and precision localiation in confined spaces}  % arguments 3 to 6 can be left empty
 \cventry{2008--2012}{BS Mechanical Engineering}{Caltech}{Pasadena}{}{}
@@ -65,9 +66,9 @@
 %% \cvitem{supervisors}{Supervisors}
 %% \cvitem{description}{Short thesis abstract}
 
-\section{Experience}
+\section{Work Experience}
 %% \subsection{Vocational}
-\cventry{2014--2015}{Software Development Engineer}{Amazon}{Seattle}{}{I created software for the Amazon Kindle E-Readers and Tablets.\newline{}%
+\cventry{2014--2015}{Software Development Engineer}{\underline{Amazon}}{Seattle}{}{I created software for the Amazon Kindle E-Readers and Tablets.\newline{}%
 %% Detailed achievements:%
 %% \begin{itemize}%
 %% \item Achievement 1;
@@ -85,9 +86,9 @@
 %% \item Achievement 3.
 %% \end{itemize}
 }
-\cventry{2012--2014}{Robotics Engineer}{Electroimpact}{Seattle}{}{I designed, built, and programmed robots that build airplanes}
+\cventry{2012--2014}{Robotics Engineer}{\underline{Electroimpact}}{Seattle}{}{I designed, built, and programmed robots that build airplanes}
 %% \subsection{Academic}
-\cventry{2010--2012}{Research Fellow}{California Institute of Technology}{Pasadena}{}
+\cventry{2010--2012}{Research Fellow}{\underline{California Institute of Technology}}{Pasadena}{}
         {Fluid Dynamics Research}
 
 %% \section{Publications}
@@ -142,7 +143,10 @@
 
 \section{References}
 \begin{cvcolumns}
-  \cvcolumn{Carnegie Mellon}{\begin{itemize}\item Reid Simmons\end{itemize}}
+  \cvcolumn{Carnegie Mellon}{\begin{itemize}
+    \item Reid Simmons
+    \item Howie Choset
+  \end{itemize}}
   \cvcolumn{Electroimpact}{\begin{itemize}\item Russ DeVlieg\end{itemize}}
   \cvcolumn{Caltech}{\begin{itemize}\item Matthew Heverly\end{itemize}}  
   %% \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon 
@@ -151,6 +155,7 @@
 
 
 % Publications from a BibTeX file using the multibib package
+
 %\section{Publications}
 %\nocitebook{book1,book2}
 %\bibliographystylebook{plain}
